@@ -47,7 +47,7 @@ You can find the length of a String value by writing .
 length after the string variable or string literal.
 */
 // Setup
-let lastNameLength = 0;
+letLength = 0;
 const lastName = "Lovelace";
 
 // Only change code below this line
@@ -55,5 +55,16 @@ lastNameLength = lastName.length;
 console.log(lastNameLength);
 
 /*
+          Use Bracket Notation to Find the First Character in a String  
+Bracket notation is a way to get a character at a specific index within a string
+Most modern programming languages, like JavaScript, 
+don't start counting at 1 like humans do. They start at 0.
+This is referred to as Zero-based indexing.
+          */
+// Setup
+let firstLetterOfLastNamee = "";
+const lastNamee = "Lovelace";
 
-*/
+// Only change code below this line
+firstLetterOfLastNamee = lastNamee[0];// Change this line
+console.log(firstLetterOfLastNamee)
