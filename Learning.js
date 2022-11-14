@@ -68,3 +68,18 @@ const lastNamee = "Lovelace";
 // Only change code below this line
 firstLetterOfLastNamee = lastNamee[0];// Change this line
 console.log(firstLetterOfLastNamee)
+
+/*
+          Understand String Immutability
+
+In JavaScript, String values are immutable, 
+which means that they cannot be altered once created.
+
+// Setup
+let myStr = "Jello World";
+myStr[0] = "H";
+*/
+
+let a6 = "jello world";
+a6 = "Hello World !";
+console.log(a6)
