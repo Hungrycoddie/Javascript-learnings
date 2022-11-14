@@ -42,5 +42,18 @@ let a5 = "Learning to code is ";
 console.log (a5+= someAdjective)
 
 /*
+          Find the Length of a String
+You can find the length of a String value by writing .
+length after the string variable or string literal.
+*/
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+console.log(lastNameLength);
+
+/*
 
 */
