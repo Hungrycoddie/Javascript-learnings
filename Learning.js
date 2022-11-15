@@ -83,3 +83,33 @@ myStr[0] = "H";
 let a6 = "jello world";
 a6 = "Hello World !";
 console.log(a6)
+
+/*
+               Bracket Notation to Find the Nth Character in a String
+You can also use bracket notation to get the character at other positions within a string.
+Remember that computers start counting at 0,
+so the first character is actually the zeroth character.
+*/
+const NastName = "Lovelace";
+const thirdLetterOfNastName = NastName[2];
+/*
+          Use Bracket Notation to Find the Last Character in a String
+In order to get the last letter of a string, you can subtract one from the string's length.
+*/
+const FastName = "Lovelace";
+const lastLetterOfFastName = FastName[FastName.length - 1];
+
+/*
+                         Word Blanks
+You are provided sentences with some missing words, like nouns, verbs, adjectives and adverbs.
+You then fill in the missing pieces with words of your choice in a way that the completed sentence makes sense
+*/
+const myNoun = "Raj";
+const myAdjective = "Arun";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+var wordBlanks =
+  "My friend " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+
+console.log(wordBlanks);
