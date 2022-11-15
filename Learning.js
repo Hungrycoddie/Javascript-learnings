@@ -38,7 +38,7 @@ Just as we can build a string over multiple lines out of string literals,
 we can also append variables to a string using the plus equals (+=) operator.*/
 
 const someAdjective = "Awesome Arun!";
-let a5 = "Learning to code is ";
+let a5 = "Learning JavaScript is ";
 console.log (a5+= someAdjective)
 
 /*
@@ -113,3 +113,24 @@ var wordBlanks =
   "My friend " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
 console.log(wordBlanks);
+
+/*
+               Store Multiple Values in one Variable using JavaScript Arrays
+
+With JavaScript array variables, we can store several pieces of data in one place.
+You start an array declaration with an opening square bracket, end it with a closing square bracket,
+ and put a comma between each entry,
+*/
+const myArray = ["Arun", 05];
+console.log(myArray)
+
+/*
+               Nest one Array within Another Array
+
+You can also nest arrays within other arrays, like below:
+*/
+const myArray_a1 = [
+  ["Arun", 05],
+  ["Aruna", 01],
+];
+console.log(myArray_a1)
