@@ -157,3 +157,7 @@ even if the array was declared with const.
 const myArray_a3 = [0, 64, 99];
 myArray_a3[0] = 45;
 console.log(myArray_a3)
+
+/*
+
+*/
